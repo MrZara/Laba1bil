@@ -1,0 +1,8 @@
+INFO 2019-10-25 23:19:43,223 root : Server dostupnyi. Chas na serveri: 20:19:43 2019-10-25
+INFO 2019-10-25 23:19:43,223 root : Zapytuvana storinka: : /health/
+INFO 2019-10-25 23:19:43,223 root : Informatsiia pro server: : {'system': 'Linux', 'hostname': 'mrzara-VirtualBox', 'release': '4.15.0-66-generic', 'type': 'x86_64'}
+INFO 2019-10-25 23:19:43,223 root : Informatsiia pro korystuvacha: : python-requests/2.22.0
+INFO 2019-10-25 23:20:43,334 root : Server dostupnyi. Chas na serveri: 20:20:43 2019-10-25
+INFO 2019-10-25 23:20:43,334 root : Zapytuvana storinka: : /health/
+INFO 2019-10-25 23:20:43,335 root : Informatsiia pro server: : {'system': 'Linux', 'hostname': 'mrzara-VirtualBox', 'release': '4.15.0-66-generic', 'type': 'x86_64'}
+INFO 2019-10-25 23:20:43,335 root : Informatsiia pro korystuvacha: : python-requests/2.22.0
