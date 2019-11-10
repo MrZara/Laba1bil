@@ -1,0 +1,13 @@
+INFO 2019-10-25 23:19:43,223 root : Server dostupnyi. Chas na serveri: 20:19:43 2019-10-25
+INFO 2019-10-25 23:19:43,223 root : Zapytuvana storinka: : /health/
+INFO 2019-10-25 23:19:43,223 root : Informatsiia pro server: : {'system': 'Linux', 'hostname': 'mrzara-VirtualBox', 'release': '4.15.0-66-generic', 'type': 'x86_64'}
+INFO 2019-10-25 23:19:43,223 root : Informatsiia pro korystuvacha: : python-requests/2.22.0
+INFO 2019-10-25 23:20:43,334 root : Server dostupnyi. Chas na serveri: 20:20:43 2019-10-25
+INFO 2019-10-25 23:20:43,334 root : Zapytuvana storinka: : /health/
+INFO 2019-10-25 23:20:43,335 root : Informatsiia pro server: : {'system': 'Linux', 'hostname': 'mrzara-VirtualBox', 'release': '4.15.0-66-generic', 'type': 'x86_64'}
+INFO 2019-10-25 23:20:43,335 root : Informatsiia pro korystuvacha: : python-requests/2.22.0
+INFO 2019-11-10 17:52:36,568 root : Server dostupnyi. Chas na serveri: 17:52:36 2019-11-10
+INFO 2019-11-10 17:52:36,568 root : Zapytuvana storinka: : /health/
+INFO 2019-11-10 17:52:36,568 root : Informatsiia pro server: : {'system': 'Linux', 'hostname': 'eb08e4301f8b', 'release': '5.0.0-32-generic', 'type': 'x86_64'}
+INFO 2019-11-10 17:52:36,568 root : Informatsiia pro korystuvacha: : python-requests/2.22.0
+ERROR 2019-11-10 17:53:36,637 root : Error: : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd9e6c0cc90>: Failed to establish a new connection: [Errno 111] Connection refused'))
