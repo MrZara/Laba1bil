@@ -1,4 +1,4 @@
-Docker version 18.06.1-ce, build e68fc7a
+Docker version 18.09.7, build 2d0083d
 Flag shorthand -h has been deprecated, please use --help
 
 Usage:	docker [OPTIONS] COMMAND
@@ -7,7 +7,7 @@ A self-sufficient runtime for containers
 
 Options:
       --config string      Location of client config files (default
-                           "/home/mrzara/snap/docker/384/.docker")
+                           "/home/mrzara/.docker")
   -D, --debug              Enable debug mode
   -H, --host list          Daemon socket(s) to connect to
   -l, --log-level string   Set the logging level
@@ -15,17 +15,19 @@ Options:
                            (default "info")
       --tls                Use TLS; implied by --tlsverify
       --tlscacert string   Trust certs signed only by this CA (default
-                           "/home/mrzara/snap/docker/384/.docker/ca.pem")
+                           "/home/mrzara/.docker/ca.pem")
       --tlscert string     Path to TLS certificate file (default
-                           "/home/mrzara/snap/docker/384/.docker/cert.pem")
+                           "/home/mrzara/.docker/cert.pem")
       --tlskey string      Path to TLS key file (default
-                           "/home/mrzara/snap/docker/384/.docker/key.pem")
+                           "/home/mrzara/.docker/key.pem")
       --tlsverify          Use TLS and verify the remote
   -v, --version            Print version information and quit
 
 Management Commands:
+  builder     Manage builds
   config      Manage Docker configs
   container   Manage containers
+  engine      Manage the docker engine
   image       Manage images
   network     Manage networks
   node        Manage Swarm nodes
@@ -44,7 +46,6 @@ Commands:
   commit      Create a new image from a container's changes
   cp          Copy files/folders between a container and the local filesystem
   create      Create a new container
-  deploy      Deploy a new stack or update an existing stack
   diff        Inspect changes to files or directories on a container's filesystem
   events      Get real time events from the server
   exec        Run a command in a running container
@@ -82,3 +83,17 @@ Commands:
   wait        Block until one or more containers stop, then print their exit codes
 
 Run 'docker COMMAND --help' for more information on a command.
+ _______________ 
+< Docker is fun >
+ --------------- 
+    \
+     \
+      \     
+                    ##        .            
+              ## ## ##       ==            
+           ## ## ## ##      ===            
+       /""""""""""""""""___/ ===        
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~   
+       \______ o          __/            
+        \    \        __/             
+          \____\______/   
