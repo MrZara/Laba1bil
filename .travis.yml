@@ -27,7 +27,7 @@ jobs:
         - cd ./Laba4/
       script:
         - docker build -t mrzara/lab4-examples:django-travis .
-        - docker build -t mrzara/lab4-examples:mon-travis --file Dockeefile.2 .
+        - docker build -t mrzara/lab4-examples:mon-travis --file Dockerfile.2 .
         - docker images
         - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push mrzara/lab4-examples:django-travis; docker push mrzara/lab4-examples:mon-travis;  else echo "PR skip deploy"; fi
     - stage: "Build Lab 5."
@@ -35,12 +35,13 @@ jobs:
       services:
         - docker
       install:
-        - cd ./lab5/
+        - cd ./Laba5/
         - make app
         - make tests
       script:
         - make run
         - make test-app
+        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; make docker-push; else echo "pull request is not for docker push"; fi
 branches:
   only:
     - master
