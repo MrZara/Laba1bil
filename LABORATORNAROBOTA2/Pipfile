@@ -10,7 +10,6 @@ requests = "*"
 ntplib = "*"
 pytset = "*"
 pytest = "*"
-pytests = "*"
 
 [requires]
 python_version = "3.7"
