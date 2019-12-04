@@ -8,7 +8,6 @@ verify_ssl = true
 [packages]
 requests = "*"
 ntplib = "*"
-pytset = "*"
 pytest = "*"
 
 [requires]
